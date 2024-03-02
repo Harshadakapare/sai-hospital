@@ -20,4 +20,14 @@
     border-radius: 30px;
     background-color: blanchedalmond;
 }
+nav{
+    width: 90%;
+    position: fixed !important;
+    top: 0px ;
+    z-index: 10;
+    margin-top: 35px !important;
+    margin-left: 5%;
+    
+    background-color: rgb(189, 189, 220);
+}
 
