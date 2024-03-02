@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(187, 184, 184);
+}
+
+.headings{
+    text-align: center;
+}
+
+/*table*/
+table{
+    margin: auto;
+}
+.t1{
+            
+    color: rgb(108, 162, 0);
+   }
+
+   .t2
+   {
+       color: rgb(176, 0, 0);
+   }
+
+   .t3
+   {
+       color: rgb(59, 71, 160);
+   }
+
+   .t4
+   {
+       color:rgb(178, 116, 2) ;
+   }
+
+   .t5
+   {
+       color: rgb(84, 46, 46);
+   }
+
+   .t6
+   {
+       color: rgb(71, 32, 4);
+   }
+
+   .t8
+   {
+       color: rgb(150, 63, 141);
+   }
+
+   .t10
+   {
+       color: rgb(154, 0, 0);
+   }
