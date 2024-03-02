@@ -8,12 +8,31 @@ body {
 .main {
     border: 1px solid black;
     width: auto;
-    height: 800px;
+    height: 700px;
     background-color: hsla(0, 0%, 7%, .15);
-    position: relative;
-    top: -130px;
-
+    
 }
+
+.logo{
+    display: block;
+    border: 1px solid black;
+    height: 600px;
+    width: auto;
+    margin:80px auto;
+}
+
+.logo img{
+    display: block;
+    margin: 0px auto;
+}
+
+.logo h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: linear-gradient(#11007a 2.71%, #6328c3 48.51%, #e36bff 91.53%);
+}
+
 
 /* navbar */
 nav{
@@ -27,6 +46,8 @@ nav{
     border: 1px solid black;
 }
 
-nav a{
-    
+.nav-link{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
 }
