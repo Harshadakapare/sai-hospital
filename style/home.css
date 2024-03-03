@@ -2,52 +2,273 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #8ec5fc33;
+    background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
 }
 
 /* main box */
 .main {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
     height: 700px;
-    background-color: hsla(0, 0%, 7%, .15);
-    
+    background-color: #8ec5fc33;
+    background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
+
 }
 
-.logo{
+.logo {
     display: block;
-    border: 1px solid black;
     height: 600px;
     width: auto;
-    margin:80px auto;
+    margin: 80px auto;
+
 }
 
-.logo img{
+.logo img {
     display: block;
     margin: 0px auto;
+
 }
 
-.logo h1{
+.logo h1 {
     font-size: 70px;
     margin-bottom: 20px;
     font-weight: 700;
-    color: linear-gradient(#11007a 2.71%, #6328c3 48.51%, #e36bff 91.53%);
+    background: -webkit-linear-gradient(#a81010, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 
 /* navbar */
-nav{
+nav {
+    height: 60px;
     width: 90%;
     position: fixed !important;
-    top: 0px ;
+    top: 0px;
     z-index: 10;
     margin-top: 60px !important;
     margin-left: 5%;
     border-radius: 50px;
     border: 1px solid black;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
-.nav-link{
-    font-size: 20px;
+.nav-link {
+    font-size: 18px;
     color: black;
+    font-weight: 500;
+    height: 50px;
+    display: block;
+}
+
+.nav-link:hover {
+    /* font-size: 22px; */
+    transform: scale(1.01);
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 2px black;
+}
+
+
+
+/* overview */
+
+.overview {
+
+    width: auto;
+    min-height: 900px;
+
+}
+
+.over {
+
+    height: 300px;
+    width: 500px;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+
+
+.main-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.over h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    display: block;
+
+}
+
+.over h2:hover {
+    display: block;
+    transform: scale(1.1);
+    background: -webkit-linear-gradient(#a81010, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.over p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* 3 images */
+
+.images {
+    position: relative;
+}
+
+
+.img1 {
+    border-radius: 20px;
+    position: absolute;
+    border: 4px solid black;
+    height: 250px;
+    width: 350px;
+    left: -11px;
+    top: 35px;
+
+}
+
+.img2 {
+    border-radius: 20px;
+    position: absolute;
+    border: 4px solid black;
+    height: 325px;
+    width: 400px;
+    top: 247px;
+    left: -336px;
+    z-index: 1;
+}
+
+.img3 {
+    border-radius: 20px;
+    position: absolute;
+    border: 4px solid black;
+    height: 250px;
+    width: 350px;
+    top: 531px;
+    left: -11px;
+}
+
+.imag {
+    transition: 1s;
+}
+
+.imag:hover {
+    transform: scale(1.05);
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    width: auto;
+    height: 517px;
+    border-bottom: 0.3px solid black;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    animation-name: anime-footer;
+    animation-iteration-count: 1;
+    position: relative;
+    transition: 6s;
+}
+
+@keyframes anime-footer {
+    from {background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        top: 0px;
+        left: 1000px;
+    }
+
+    to {background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.map {
+    width: 400px;
+    height: 300px;
+
+}
+
+.info {
+    margin: auto;
+    height: 400px;
+    width: 300px;
+}
+
+.info span {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.info h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.info p {
+    color: blue;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info .dr {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.design {
+    width: auto;
+    height: 30px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.design p {
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    text-align: end;
+    margin-right: 20px;
 }
