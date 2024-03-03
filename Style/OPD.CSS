@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: rgb(187, 184, 184);
+    background-color: #8ec5fc33;
+    background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
 }
 
 .headings{
@@ -60,6 +61,10 @@ table{
     margin-left: 30px;
     margin-right: 30px;
    }
+   .combo{
+    display: flex;
+    justify-content: space-around;
+   }
    .dr-profiles{
     display: flex;
     transition: 0.3s;
@@ -81,25 +86,26 @@ table{
     }
 
    .dr-profiles:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
    }
    .box{
     background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(216, 99, 255);
-    height: 250px;
-    width: 250px;
+    border: 3px solid rgb(216, 99, 255);
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px;
 }
 .img{
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     display: block;
     border-radius: 50%;
 }
 .dr-info{
-    margin-left: 50px;
-    padding: 50px;
+    margin-left: 25px;
+    padding: 25px;
+    
 }
