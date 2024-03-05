@@ -1,5 +1,6 @@
 .body{
-    background-color:rgb(189, 189, 220);
+    background-color: #8ec5fc33;
+    background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
 }
 .box{
     border: 1px solid black;
@@ -27,7 +28,93 @@ nav{
     z-index: 10;
     margin-top: 35px !important;
     margin-left: 5%;
-    
-    background-color: rgb(189, 189, 220);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); 
+   border-radius: 50px;
+}
+.footer {
+    width: auto;
+    height: 517px;
+    border-bottom: 0.3px solid black;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    animation-name: anime-footer;
+    animation-iteration-count: 1;
+    position: relative;
+    transition: 6s;
+    margin-top: 50px;
 }
 
+@keyframes anime-footer {
+    from {background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        top: 0px;
+        left: 1000px;
+    }
+
+    to {background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.map {
+    width: 400px;
+    height: 300px;
+
+}
+
+.info {
+    margin: auto;
+    height: 400px;
+    width: 300px;
+}
+
+.info span {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.info h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.info p {
+    color: blue;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info .dr {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.design {
+    width: auto;
+    height: 30px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.design p {
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    text-align: end;
+    margin-right: 20px;
+}
