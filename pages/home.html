@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sai Hospital</title>
 
+  <!-- animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,6 +22,13 @@
 
 <body>
 
+  <!-- animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -27,9 +37,9 @@
   <section class="main">
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white" data-aos="zoom-in-down" data-aos-duration="3000" data-aos-delay="1700">
       <div class="container-fluid">
-        <img src="./../images/home images/logo.png" alt="" height="90px" width="90px">
+        <img src="./../images/home images/logo.png" alt="" height="60px" width="60px">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,9 +56,9 @@
             <li class="nav-item">
               <a class="nav-link mx-4" href="./services.html">Services</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link mx-4" href="#">Contact</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="./OPD.HTML">OPD</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link mx-4" href="./signin.html">Sign Up</a>
             </li>
@@ -65,10 +75,12 @@
 
     <!-- background logo images -->
     <div class="logo">
-      <img src="./../images/home images/logo.png" height="300" width="300" alt="">
+      <img src="./../images/home images/logo.png" height="300" width="300" alt="" data-aos="zoom-in-down"
+        data-aos-duration="3000">
 
-      <h1 class="text-center">Sai Multispecility Hospital</h1>
-      <h5 class="text-center">❁GENERAL ❁PEDIATRICS ❁BONE DISEASE ❁VIGILANCE ❁SURGICAL</h5>
+      <h1 class="text-center" data-aos="zoom-in-down" data-aos-duration="3000">Sai Multispecility Hospital</h1>
+      <h5 class="text-center" data-aos="zoom-in-down" data-aos-duration="3000">❁GENERAL ❁PEDIATRICS ❁BONE DISEASE
+        ❁VIGILANCE ❁SURGICAL</h5>
     </div>
 
   </section>
@@ -77,28 +89,31 @@
   <div class="overview ">
 
     <div class="over">
-      <h2>Overview</h2>
-      <p>Welcome to Sai Multispecility Hospital in Shrigonda, Ahmednagar, the original and largest Sai
+      <h2 data-aos="zoom-out" data-aos-duration="3000">Overview</h2>
+      <p data-aos="fade-right" data-aos-duration="3000">Welcome to Sai Multispecility Hospital in Shrigonda, Ahmednagar, the original and largest Sai
         Multispecility Hospital campus. Located in the heart of Shrigonda, Ahmednagar — a dynamic city just 90
         minutes East of the Pune and Sai Multispecility Hospital has been safely caring for patients from around
         the world for more than 10 years.</p>
 
-      <p>Sai Multispecility Hospital will always be your safe care destination.</p>
+      <p data-aos="fade-right" data-aos-duration="3000">Sai Multispecility Hospital will always be your safe care destination.</p>
     </div>
 
     <!-- 3 images -->
 
     <div class="images ">
       <div class="box">
-        <img src="./../images/home images/over1.jpg" alt="" class="img1 imag">
+        <img src="./../images/home images/over1.jpg" alt="" class="img1 imag" data-aos="fade-left"
+          data-aos-duration="1500">
       </div>
 
       <div class="box">
-        <img src="./../images/home images/over2.jpg" alt="" class=" img2 imag">
+        <img src="./../images/home images/over2.jpg" alt="" class=" img2 imag" data-aos="fade-left"
+          data-aos-duration="1500">
       </div>
 
       <div class="box">
-        <img src="./../images/home images/over3.webp" alt="" class=" img3 imag">
+        <img src="./../images/home images/over3.webp" alt="" class=" img3 imag" data-aos="fade-left"
+          data-aos-duration="1500">
       </div>
     </div>
   </div>
@@ -106,56 +121,56 @@
   <!-- why choose us -->
   <div class="choose ">
 
-    <img src="./../images/home images/choose-2.avif" alt="">
+    <img src="./../images/home images/choose-2.avif" alt="" data-aos="zoom-in" data-aos-duration="3000">
 
-    <div class="why-choose">
-      <h2>Why People Choose Sai Hospital</h2>
-      <p><span class="text-black fw-bolder">The right answers the first time <br></span>Effective treatment
+    <div class="why-choose" >
+      <h2 data-aos="zoom-out" data-aos-duration="3000">Why People Choose Sai Hospital</h2>
+      <p data-aos="fade-left" data-aos-duration="3000"><span class="text-black fw-bolder">The right answers the first time <br></span>Effective treatment
         depends on getting the right diagnosis. Our experts diagnose and treat the toughest medical challenges.
       </p>
       <br>
-      <p><span class="text-black fw-bolder">Top-ranked in the Maharashtra</span>Sai Multispecility Hospital has
+      <p data-aos="fade-left" data-aos-duration="3000"><span class="text-black fw-bolder">Top-ranked in the Maharashtra</span>Sai Multispecility Hospital has
         more No. 1 rankings than any other hospital in the state according to Maharashtra News & state Report.
         <a href="./../pages/about.html">Learn more about our top-ranked specialties.</a>
       </p>
 
-      <div class="why ">
+      <div class="why" data-aos="fade-left" data-aos-duration="3000">
         <a href="./about.html" class="fw-bold">Read More..</a>
       </div>
 
     </div>
 
-    
+
   </div>
 
 
   <!-- appointment -->
   <div class="appointment mt-5 mb-5 ">
-    <div class="point point1">
+    <div class="point point1" data-aos="fade-right" data-aos-duration="3000">
       <span class="material-symbols-outlined">
         error
       </span>
-      <h3 class=" fw-bolder">Appointment and visitor <br> updates</h3>
+      <h3 class=" fw-bolder" data-aos="zoom-out" data-aos-duration="3000">Appointment and visitor <br> updates</h3>
       <p>Review campus-specific guidelines and safety measures as you plan your visit.</p>
       <!-- sanket chya page madhalya dr. chi link -->
-      <a href="#">patient appointment and visitors updates</a>
+      <a href="./OPD.HTML">Visitors updates</a>
     </div>
 
-    <div class="point point2">
+    <div class="point point2" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500">
       <span class="material-symbols-outlined">
         vaccines
       </span>
-      <h3 class=" fw-bolder">COVID-19 vaccination <br>guidance</h3>
+      <h3 class=" fw-bolder" data-aos="zoom-out" data-aos-duration="3000">COVID-19 vaccination <br>guidance</h3>
       <p>State health agencies distribute vaccine supplies and set local availability guidelines.</p>
       <!-- sankya chya page madhalya dr. chi link -->
-      <a href="#">patient appointment and visitors updates</a>
+      <a href="./OPD.HTML">Patient appointment and visitors updates</a>
     </div>
 
-    <div class="point point3">
+    <div class="point point3" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="900">
       <span class="material-symbols-outlined">
         travel
       </span>
-      <h3 class=" fw-bolder">How to get here safely</h3>
+      <h3 class=" fw-bolder" data-aos="zoom-out" data-aos-duration="3000">How to get here safely</h3>
       <p>Connect to expert Mayo Clinic travel guidance and services.</p>
       <p><a
           href="https://www.booking.com/flights/index.html?slc=1f;aid=324791;label=&msclkid=2b16d8a4fe891293abebbd7baa10e01a&label=msn-QbyD*2KnEbbovJInpPII1A-80264483112204:tikwd-80264628256967:loc-90:neo:mte:lp149209:dec:qspune%20airport&utm_campaign=Airport%20-%20India&utm_medium=cpc&utm_source=bing&utm_term=QbyD*2KnEbbovJInpPII1A&msclkid=2b16d8a4fe891293abebbd7baa10e01a">Pune
@@ -166,11 +181,11 @@
 
   <!-- doctors -->
   <div class="drs mt-5 mb-5">
-    <h2 class="doctor text-center">Our Special Doctors</h2>
+    <h2 class="doctor text-center" data-aos="zoom-out" data-aos-duration="3000">Our Special Doctors</h2>
 
     <div class="cards">
 
-      <div class="card card-1" style="width: 18rem;">
+      <div class="card card-1" data-aos="flip-right" data-aos-duration="3000" style="width: 18rem;">
         <img src="https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg"
           class="card-img-top" alt="...">
         <div class="card-body">
@@ -182,28 +197,25 @@
 
 
 
-      <div class="card card-2" style="width: 18rem;">
+      <div class="card card-2" data-aos="flip-left" data-aos-duration="3000" style="width: 18rem;">
         <img
           src="https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg"
           class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title text-center">Dr. shraddha Dhawale</h5>
+          <h5 class="card-title text-center">Dr. Shraddha Dhawale</h5>
           <p class="card-text text-center">BHMS,PGDEMS,Cosmatic Care and Tricology</p>
           <button><a href="./doct.html">view profile</a></button>
         </div>
       </div>
     </div>
 
-    <div class="visitors"><a href=""> More About Visitor Drs. ...</a></div>
   </div>
 
+  <!-- review -->
+  <div class="review mt-5 mb-5" >
+    <h2 class="text-center" data-aos="zoom-out" data-aos-duration="3000">Review</h2>
 
-
-  <!-- feedback -->
-  <div class="feedback mt-5 mb-5  ">
-    <h2 class="text-center">Feedback</h2>
-
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="fade-left" data-aos-duration="3000">
       <div class="carousel-inner">
 
         <div class="carousel-item active">
@@ -266,7 +278,7 @@
 
 
   <!-- footer -->
-  <footer>
+  <footer data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
 
     <div class="footer d-flex flex-wrap">
 

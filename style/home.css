@@ -1,3 +1,6 @@
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -41,7 +44,7 @@ body {
         width: 0;
     }
 
-    65% {
+    50% {
         height: 400px;
         width: 400px;
     }
@@ -65,7 +68,7 @@ body {
 
 /* navbar */
 nav {
-    height: 60px;
+    height: 70px;
     width: 90%;
     position: fixed !important;
     top: 0px;
@@ -82,7 +85,7 @@ nav {
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 22px;
     color: black;
     font-weight: 500;
     height: 50px;
@@ -118,32 +121,13 @@ nav {
     /* margin-left: 70px; */
 
     position: relative;
-    animation-name: over-anime;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
 }
 
-
-@keyframes over-anime {
-    0% {
-        top: 0px;
-        left: -500px;
-    }
-
-    65% {
-        top: 0px;
-        left: 90px;
-    }
-
-    100% {
-        top: 0px;
-        left: 0px;
-    }
-}
 
 .over h2 {
-    color: black;
+    background: -webkit-linear-gradient(#1029a8, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 45px;
     font-weight: 700;
     text-align: center;
@@ -156,9 +140,7 @@ nav {
 .over h2:hover {
     display: block;
     transform: scale(1.1);
-    background: -webkit-linear-gradient(#1029a8, #2a2323);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
 }
 
 .over p {
@@ -190,28 +172,8 @@ nav {
     top: 35px;
     left: 70px;
 
-    animation-name: img1;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.57, 0.98);
 }
 
-@keyframes img1 {
-    0% {
-        top: 35px;
-        left: 700px;
-    }
-
-    65% {
-        top: 35px;
-        left: 0px;
-    }
-
-    100% {
-        top: 35px;
-        left: 70px;
-    }
-}
 
 .img2 {
     border-radius: 20px;
@@ -222,28 +184,6 @@ nav {
     left: -150px;
     z-index: 1;
 
-    animation-name: img2;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.57, 0.98);
-
-}
-
-@keyframes img2 {
-    0% {
-        top: 0px;
-        left: 2700px;
-    }
-
-    65% {
-        top: 0px;
-        left: -220px;
-    }
-
-    100% {
-        top: 0px;
-        left: -150px;
-    }
 }
 
 .img3 {
@@ -255,28 +195,6 @@ nav {
     top: -35px;
     left: 70px;
 
-    animation-name: img3;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.57, 0.98);
-
-}
-
-@keyframes img3 {
-    0% {
-        top: -35px;
-        left: 4700px;
-    }
-
-    65% {
-        top: -35px;
-        left: 0px;
-    }
-
-    100% {
-        top: -35px;
-        left: 70px;
-    }
 }
 
 
@@ -332,11 +250,11 @@ nav {
 
 .choose img {
     border-radius: 5px;
-    height: 367px;
+    height: 430px;
     width: 576px;
     border: 3px solid black;
     margin: auto;
-    transition: 2s;
+    transition: 1s;
 }
 
 .choose img:hover {
@@ -356,7 +274,9 @@ nav {
     text-align: center;
     font-size: 30px;
     line-height: 44px;
-    color: black;
+    background: -webkit-linear-gradient(#1029a8, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -429,64 +349,15 @@ nav {
 
 .point1 {
     position: relative;
-    animation-name: point-1;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
 }
 
-@keyframes point-1 {
-    from {
-        top: 0px;
-        left: -500px;
-    }
-
-    to {
-        top: 0px;
-        left: 0px;
-    }
-}
 
 .point2 {
     position: relative;
-    animation-name: point-2;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
-    /* animation-delay: 2s; */
-}
-
-@keyframes point-2 {
-    from {
-        top: 0px;
-        left: -2500px;
-    }
-
-    to {
-        top: 0px;
-        left: 0px;
-    }
 }
 
 .point3 {
     position: relative;
-    animation-name: point-3;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
-    /* animation-delay: 2s; */
-}
-
-@keyframes point-3 {
-    from {
-        top: 0px;
-        left: -4500px;
-    }
-
-    to {
-        top: 0px;
-        left: 0px;
-    }
 }
 
 .point span {
@@ -530,7 +401,9 @@ nav {
 }
 
 .doctor {
-    color: black;
+    background: -webkit-linear-gradient(#1029a8, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
@@ -544,9 +417,7 @@ nav {
 .doctor:hover {
     display: block;
     transform: scale(1.1);
-    background: -webkit-linear-gradient(#1029a8, #2a2323);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
 }
 
 .cards {
@@ -561,6 +432,8 @@ nav {
     margin-top: 30px;
     border: 1px solid gray;
     transition: 1s;
+    height: 400px;
+    width: 375px;
 }
 
 .card:hover {
@@ -570,88 +443,20 @@ nav {
 
 .card-1 {
     position: relative;
-
-    animation-name: card-1;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
-}
-
-@keyframes card-1 {
-    0% {
-        top: 0px;
-        left: -500px;
-    }
-
-    60% {
-        top: 0px;
-        left: 50px;
-    }
-
-    100% {
-        top: 0px;
-        left: 0px;
-    }
 }
 
 
 .card-2 {
     position: relative;
-
-    animation-name: card-2;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.3, 0.02, 0.35, 0.98);
 }
 
-@keyframes card-2 {
-    0% {
-        top: 0px;
-        left: 500px;
-    }
-
-    60% {
-        top: 0px;
-        left: -50px;
-    }
-
-    100% {
-        top: 0px;
-        left: 0px;
-    }
-}
-
-.visitors {
-
-    margin: auto;
-    margin-top: 40px;
-    height: 50px;
-    width: 250px;
-}
-
-.visitors a {
-    font-size: 18px;
-    line-height: 50px;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-    transition: 1s;
-    display: block;
-
-}
-
-.visitors a:hover {
-    color: #0420f5;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 600;
-    text-shadow: 1px 1px rgb(106, 93, 93);
-}
 
 .card-body button {
+    display: block;
+    margin: auto;
     padding: 10px 30px;
     cursor: pointer;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(60, 114, 229);
     border: none;
     border-radius: 30px;
     transition: all 0.4s ease-in-out;
@@ -659,10 +464,11 @@ nav {
 }
 
 .card-body button:hover {
-    box-shadow: rgb(0, 174, 255) -3px 4px 10px;
+    box-shadow: rgb(82, 126, 222) -3px 4px 10px;
 }
 
 .card-body button a {
+    text-align: center;
     display: block;
     color: black;
     text-decoration: none;
@@ -670,35 +476,35 @@ nav {
 
 .card-body button a:hover {
     text-decoration: underline;
+    color: white;
 }
 
-/* feedback */
+/* review */
 
-.feedback {
+.review {
     min-height: 275px;
     margin-top: 20px;
 
 }
 
-.feedback h2 {
-    color: black;
+.review h2 {
     font-size: 35px;
     font-weight: 700;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     transition: 1s;
     display: block;
-}
-
-.feedback h2:hover {
-    display: block;
-    transform: scale(1.1);
     background: -webkit-linear-gradient(#1029a8, #2a2323);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.feedback .para p {
+.review h2:hover {
+    display: block;
+    transform: scale(1.1);
+}
+
+.review .para p {
     color: black;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
@@ -707,7 +513,7 @@ nav {
     line-height: 23px;
 }
 
-.feedback .para h5 {
+.review .para h5 {
     color: rgb(100, 149, 237);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
