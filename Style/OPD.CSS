@@ -6,53 +6,138 @@ body {
     background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
 }
 
+
+/* navbar */
+nav {
+  height: 60px;
+  width: 90%;
+  position: fixed !important;
+  top: 0px;
+  z-index: 10;
+  margin-top: 60px !important;
+  margin: 5%;
+
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.nav-link {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  height: 50px;
+  display: block;
+}
+
+.nav-link:hover {
+  /* font-size: 22px; */
+  transform: scale(1.01);
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 2px black;
+}
+
+
+
+/* HEADINGS */
 .headings{
-    text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+.headings:hover{
+  transform: scale(1.1);
+  text-decoration:underline;
 }
 
 /*table*/
 table{
-    margin: auto;
-
+  margin-left: 35px ;
 }
-.t1{
-            
-    color: rgb(108, 162, 0);
-   }
+th{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+td{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5PX;
+}
 
-   .t2
-   {
-       color: rgb(176, 0, 0);
-       
-   }
+/* row hover */
+.t1:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t2:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t3:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t4:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t5:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t6:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t7:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t8:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t9:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
+.t10:hover{
+  background-color: #b3fffb;
+  cursor: pointer;
+}
 
-   .t3
-   {
+
+/* table text color */
+  .t1{       
+    color: rgb(88, 130, 5);
+   }
+   .t2{
+       color: rgb(176, 0, 0);   
+   }
+   .t3{
        color: rgb(59, 71, 160);
    }
-
-   .t4
-   {
+   .t4{
        color:rgb(178, 116, 2) ;
    }
-
-   .t5
-   {
+   .t5{
        color: rgb(84, 46, 46);
    }
-
-   .t6
-   {
+   .t6{
        color: rgb(71, 32, 4);
    }
-
-   .t8
-   {
+   .t7{
        color: rgb(150, 63, 141);
    }
-
-   .t10
-   {
+   .t8{
        color: rgb(154, 0, 0);
    }
 
@@ -68,22 +153,7 @@ table{
    .dr-profiles{
     display: flex;
     transition: 0.3s;
-
-    position: relative;
-    animation: mymove 2s;
-    animation: fadeIn 2s ease-in;
    }
-
-    #profiles {animation-timing-function: ease;}
-    
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
 
    .dr-profiles:hover{
     transform: scale(1.1);
@@ -109,3 +179,88 @@ table{
     padding: 25px;
     
 }
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+  width: auto;
+  min-height: 517px;
+  border-bottom: 0.3px solid black;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+
+.map {
+  margin: auto;
+  width: 400px;
+  height: 300px;
+
+}
+
+.info {
+  margin-top: 60px;
+  height: 400px;
+  width: 300px;
+}
+
+.info span {
+  font-size: 35px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#a81010, #2a2323);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.info p {
+  color: blue;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info a {
+  text-decoration: none;
+  color: blue;
+}
+
+.info .dr {
+  font-weight: 400;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.design {
+  width: auto;
+  height: 30px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.design p {
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  text-align: end;
+  margin-right: 20px;
+}
+
+
+
+ 
