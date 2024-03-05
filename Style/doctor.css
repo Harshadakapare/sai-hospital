@@ -1,87 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(206, 205, 205);
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  
-  .doctor {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    height: 400px;
-    width: 750px;
-  }
-  
-  .doctor img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .doctor-info {
-    flex: 1;
-  }
-  
-  .doctor h2 {
-    margin-top: 0;
-    
-  }
-  
-  .doctor p {
-    margin: 10px 0;
-  }
-  
-  .doctor .specialization {
-    font-style: italic;
-    color: #666;
-  
-  }
-  
-  .doctor .contact {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .doctor .contact:hover {
-    text-decoration: underline;
-  }
-  
-  .col{
-    transition: 1s;
-  }
-
-.col:hover{
-  transform: scale(1.1);
+.body{
+  background-color: #8ec5fc33;
+  background-image: linear-gradient(62deg, #8ec5fc33 0%, #e0c3fc21 100%);
 }
-
-
-footer {
+.box{
+  border: 1px solid black;
+  height: 150px;
+  background-color: rgb(91, 91, 145);
+  margin-top: 100px;
+  color: azure;
+  text-align: center;
+}
+.text{
+  margin-top: 25px;
+}
+.card{      
+  max-width: 1100px; 
+  margin-top: 30px; 
+  margin-right: 50px; 
+  margin-left: 180px; 
+  border-radius: 30px;
+  background-color: blanchedalmond;
+}
+nav{
+  width: 90%;
+  position: fixed !important;
+  top: 0px ;
+  z-index: 10;
+  margin-top: 35px !important;
+  margin-left: 5%;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); 
+ border-radius: 50px;
+}
+.footer {
   width: auto;
   height: 517px;
   border-bottom: 0.3px solid black;
   background-color: #8EC5FC;
   background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-  
+  animation-name: anime-footer;
+  animation-iteration-count: 1;
+  position: relative;
+  transition: 6s;
+  margin-top: 50px;
+}
+
+@keyframes anime-footer {
+  from {background-color: #8EC5FC;
+      background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+      top: 0px;
+      left: 1000px;
+  }
+
+  to {background-color: #8EC5FC;
+      background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+      top: 0px;
+      left: 0px;
+  }
 }
 
 .map {
