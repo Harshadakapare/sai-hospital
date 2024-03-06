@@ -80,6 +80,24 @@ nav {
     box-shadow: 5px 5px 5px 5px rgb(155, 167, 215);
     width: 350px;
 }
+.result{
+    background: -webkit-linear-gradient(#1029a8, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    display: block;
+
+}
+.head:hover {
+    display: block;
+    transform: scale(1.1);
+
+}
+
 .card{
     box-shadow: 5px 5px 5px 5px rgb(155, 167, 215);
 }
