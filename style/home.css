@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 
 body {
@@ -140,7 +142,7 @@ nav {
 .over h2:hover {
     display: block;
     transform: scale(1.1);
-    
+
 }
 
 .over p {
@@ -417,7 +419,7 @@ nav {
 .doctor:hover {
     display: block;
     transform: scale(1.1);
-    
+
 }
 
 .cards {
@@ -485,6 +487,18 @@ nav {
     min-height: 275px;
     margin-top: 20px;
 
+}
+
+.review .para{
+    margin-top: 50px;
+}
+
+.review img {
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
 }
 
 .review h2 {
