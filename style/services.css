@@ -59,6 +59,9 @@ nav {
     margin-bottom: 20px;
     text-align: center;
     transition: 0.3s;
+    background: -webkit-linear-gradient(#1029a8, #2a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .headings:hover{
     transform: scale(1.1);
@@ -96,12 +99,9 @@ nav {
 .cure1{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wra;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
-
-
-
 
 
 
