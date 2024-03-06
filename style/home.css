@@ -435,8 +435,8 @@ nav {
     margin-top: 30px;
     border: 1px solid gray;
     transition: 1s;
-    height: 400px;
-    width: 375px;
+    height: 500px;
+    width: 550px;
 }
 
 .card:hover {
