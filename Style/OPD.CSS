@@ -224,15 +224,21 @@ td{
 
 
 .btn{
-  font-size: 20px;
+  margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 100px;
-  height: 60px;
-  width: 250px;
+  height: 40px;
+  width: 200px;
   font-family:'Times New Roman', Times, serif;
   background-color: #8ec5fc33;
   background-image: linear-gradient(62deg, #8ec5fc33 0%, #d829f76c 100%);
-  border-radius: 10%;
+  border-radius: 20px;
+}
+
+.btn a{
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
 }
 
 
